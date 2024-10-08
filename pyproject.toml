@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "netmri-logging"
+description = "Integrates the Python logging infrastructure with NetMRI."
+version = "1.0.0"
+dependencies = [
+    "infoblox-netmri"
+]
+
+[tool.setuptools]
+py-modules = [
+    "netmri_logging"
+]
