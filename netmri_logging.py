@@ -8,7 +8,7 @@ class _deps:
     import logging
     import typing
 
-    from infoblox_netmri.easy import NetMRIEasy
+    from infoblox_netmri.easy import NetMRIEasy # pyright: ignore[reportMissingTypeStubs]
 
 
 _JOB_LOGGING_LEVELS = "debug", "error", "warning", "info"
