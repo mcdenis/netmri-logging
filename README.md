@@ -6,7 +6,7 @@ standard library with the Infoblox NetMRI Job system. Its main component is the
 NetMRI Job's "custom log". For convenience, the module also defines the
 `create_logger` function.
 
-## Example
+## Usage
 ```py
 import logging
 import netmri_logging
